@@ -1,0 +1,30 @@
+{
+  "name": "echarts-frontend",
+  "version": "1.0.0",
+  "description": "Real-time data monitoring frontend with Vue.js and ECharts",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "axios": "^1.6.2",
+    "sockjs-client": "^1.6.1",
+    "webstomp-client": "^1.2.6",
+    "echarts": "^5.4.3",
+    "vue-echarts": "^6.6.0",
+    "element-plus": "^2.4.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.3.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

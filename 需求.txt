@@ -1,0 +1,6 @@
+
+后端：Spring Boot + ScheduledExecutorService (定时模拟生成数据) + SimpMessagingTemplate (WebSocket)。
+
+前端：Vue.js / React + ECharts + Stomp.js (WebSocket客户端)。
+
+效果：后端每秒计算一次在线人数或订单量，通过WebSocket推送到前端，ECharts图表每秒通过WebSocket推送到前端，ECharts图表每秒更新一次。
